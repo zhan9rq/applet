@@ -20,7 +20,8 @@ page {
   /*限时抢购*/
 }
 .rf-index .wrapper {
-  border-radius: 10rpx;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
 }
 .rf-index .wrapper .h-list {
   background-color: #f8f8f8;
@@ -33,14 +34,17 @@ page {
   background-color: #fff;
   font-size: 24rpx;
   width: 280rpx;
-  border-radius: 6rpx;
+  -webkit-border-radius: 6rpx;
+          border-radius: 6rpx;
 }
 .rf-index .wrapper .h-list .h-item .h-item-img {
   display: inline-block;
   width: 280rpx;
   height: 300rpx;
-  border-top-left-radius: 12rpx;
-  border-top-right-radius: 12rpx;
+  -webkit-border-top-left-radius: 12rpx;
+          border-top-left-radius: 12rpx;
+  -webkit-border-top-right-radius: 12rpx;
+          border-top-right-radius: 12rpx;
   border-bottom: 1rpx solid rgba(0, 0, 0, 0.01);
 }
 .rf-index .wrapper .h-list .h-item .title {
@@ -94,8 +98,10 @@ page {
   width: 92%;
   height: 40vw;
   overflow: hidden;
-  border-radius: 15rpx;
-  box-shadow: 0rpx 8rpx 25rpx rgba(0, 0, 0, 0.2);
+  -webkit-border-radius: 15rpx;
+          border-radius: 15rpx;
+  -webkit-box-shadow: 0rpx 8rpx 25rpx rgba(0, 0, 0, 0.2);
+          box-shadow: 0rpx 8rpx 25rpx rgba(0, 0, 0, 0.2);
   position: relative;
   z-index: 1;
 }
@@ -142,7 +148,8 @@ page {
   background: rgba(0, 0, 0, 0.2);
   width: 90%;
   color: #fff;
-  border-bottom-left-radius: 12rpx;
+  -webkit-border-bottom-left-radius: 12rpx;
+          border-bottom-left-radius: 12rpx;
   padding-left: 20rpx;
 }
 .rf-index .swiper-slide-header .iconfont {
@@ -184,7 +191,8 @@ page {
 .rf-index .category-list-wrapper .category-list .category .img image {
   width: 12vw;
   height: 12vw;
-  border-radius: 50%;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
 }
 .rf-index .category-list-wrapper .category-list .category .text {
   margin-top: 16rpx;
@@ -227,15 +235,18 @@ page {
   display: flex;
   padding: 40rpx 10rpx 10rpx;
   height: 330rpx;
-  border-radius: 12rpx;
+  -webkit-border-radius: 12rpx;
+          border-radius: 12rpx;
   margin-top: 20rpx;
-  box-shadow: 2px 2px 10px rgba(66, 135, 193, 0.2);
+  -webkit-box-shadow: 2px 2px 10px rgba(66, 135, 193, 0.2);
+          box-shadow: 2px 2px 10px rgba(66, 135, 193, 0.2);
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   position: relative;
 }
 .rf-index .order-item .goods-box-single .goods-img {
   display: block;
-  border-radius: 12rpx;
+  -webkit-border-radius: 12rpx;
+          border-radius: 12rpx;
   width: 190rpx;
   height: 200rpx;
 }
@@ -294,7 +305,8 @@ page {
   overflow: hidden;
   top: 0;
   right: 0;
-  border-radius: 12rpx;
+  -webkit-border-radius: 12rpx;
+          border-radius: 12rpx;
 }
 .rf-index .order-item .goods-box-single .right .triangle-wrapper .triangle {
   color: #5eba8f;

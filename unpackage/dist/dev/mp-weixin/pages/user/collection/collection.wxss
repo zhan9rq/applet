@@ -12,8 +12,10 @@ page {
   width: calc(94%);
   height: 200rpx;
   margin: 20rpx auto;
-  border-radius: 15rpx;
-  box-shadow: 0rpx 5rpx 20rpx rgba(0, 0, 0, 0.1);
+  -webkit-border-radius: 15rpx;
+          border-radius: 15rpx;
+  -webkit-box-shadow: 0rpx 5rpx 20rpx rgba(0, 0, 0, 0.1);
+          box-shadow: 0rpx 5rpx 20rpx rgba(0, 0, 0, 0.1);
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
@@ -115,7 +117,8 @@ page {
   position: relative;
 }
 .collection .row .carrier .left .image {
-  border-radius: 10rpx;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
   width: 22vw;
   height: 22vw;
 }
@@ -161,7 +164,8 @@ page {
   opacity: 0.8;
   color: #fff;
   font-size: 24rpx;
-  border-radius: 6rpx;
+  -webkit-border-radius: 6rpx;
+          border-radius: 6rpx;
 }
 .collection .row .carrier .mid .bottom {
   line-height: 1.2;

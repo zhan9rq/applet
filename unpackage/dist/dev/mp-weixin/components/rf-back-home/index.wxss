@@ -16,7 +16,8 @@
 .home .homeCon.data-v-375f5baa {
   overflow: hidden;
   width: 0.86rem;
-  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+          border-radius: 0.5rem;
   -webkit-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
   opacity: 0;
@@ -27,7 +28,8 @@
 .home .homeCon .wrapper.data-v-375f5baa {
   width: 72rpx;
   height: 72rpx;
-  border-radius: 50%;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
@@ -57,7 +59,8 @@
 .home .menu.data-v-375f5baa {
   width: 72rpx;
   height: 72rpx;
-  border-radius: 50%;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;

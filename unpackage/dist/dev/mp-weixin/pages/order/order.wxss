@@ -19,7 +19,8 @@ page .order-search .order-search-input,
 .order .order-search .order-search-input {
   width: 100%;
   background-color: #fff;
-  border-radius: 40rpx;
+  -webkit-border-radius: 40rpx;
+          border-radius: 40rpx;
   padding: 10rpx 0 10rpx 30rpx;
   color: #909399;
 }

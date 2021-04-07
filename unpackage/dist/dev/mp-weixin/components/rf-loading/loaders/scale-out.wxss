@@ -2,7 +2,9 @@
 .spinner-inside.data-v-2e9ddc0b {
 	margin: 25px auto;
 
-	border-radius: 100%;
+	-webkit-border-radius: 100%;
+
+	        border-radius: 100%;
 	-webkit-animation: scaleout-data-v-2e9ddc0b 1s infinite ease-in-out;
 	animation: scaleout-data-v-2e9ddc0b 1s infinite ease-in-out;
 }

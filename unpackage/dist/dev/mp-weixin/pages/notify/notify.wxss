@@ -43,8 +43,10 @@ page {
   width: calc(94%);
   height: calc(22vw + 40rpx);
   margin: 0 auto 20rpx;
-  border-radius: 15rpx;
-  box-shadow: 0rpx 5rpx 20rpx rgba(0, 0, 0, 0.1);
+  -webkit-border-radius: 15rpx;
+          border-radius: 15rpx;
+  -webkit-box-shadow: 0rpx 5rpx 20rpx rgba(0, 0, 0, 0.1);
+          box-shadow: 0rpx 5rpx 20rpx rgba(0, 0, 0, 0.1);
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
@@ -144,7 +146,8 @@ page {
   width: 100%;
   padding: 20rpx 30rpx 20rpx 80rpx;
   margin: 20rpx 0 0;
-  border-radius: 15rpx;
+  -webkit-border-radius: 15rpx;
+          border-radius: 15rpx;
   position: relative;
 }
 .notify .notify-list .notify-wrapper .title {
@@ -175,7 +178,8 @@ page {
   display: inline-block;
   width: 12rpx;
   height: 12rpx;
-  border-radius: 50%;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
   position: absolute;
   top: 32rpx;
   right: 30rpx;

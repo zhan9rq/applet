@@ -209,53 +209,21 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 var _product = __webpack_require__(/*! @/api/product */ 35);
 
 
+
+
+
+
+
+
 var _basic = __webpack_require__(/*! @/api/basic */ 32);
+
+
 var _vuex = __webpack_require__(/*! vuex */ 16);function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _toConsumableArray(arr) {return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread();}function _nonIterableSpread() {throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");}function _unsupportedIterableToArray(o, minLen) {if (!o) return;if (typeof o === "string") return _arrayLikeToArray(o, minLen);var n = Object.prototype.toString.call(o).slice(8, -1);if (n === "Object" && o.constructor) n = o.constructor.name;if (n === "Map" || n === "Set") return Array.from(o);if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen);}function _iterableToArray(iter) {if (typeof Symbol !== "undefined" && Symbol.iterator in Object(iter)) return Array.from(iter);}function _arrayWithoutHoles(arr) {if (Array.isArray(arr)) return _arrayLikeToArray(arr);}function _arrayLikeToArray(arr, len) {if (len == null || len > arr.length) len = arr.length;for (var i = 0, arr2 = new Array(len); i < len; i++) {arr2[i] = arr[i];}return arr2;}function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {try {var info = gen[key](arg);var value = info.value;} catch (error) {reject(error);return;}if (info.done) {resolve(value);} else {Promise.resolve(value).then(_next, _throw);}}function _asyncToGenerator(fn) {return function () {var self = this,args = arguments;return new Promise(function (resolve, reject) {var gen = fn.apply(self, args);function _next(value) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);}function _throw(err) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);}_next(undefined);});};}function ownKeys(object, enumerableOnly) {var keys = Object.keys(object);if (Object.getOwnPropertySymbols) {var symbols = Object.getOwnPropertySymbols(object);if (enumerableOnly) symbols = symbols.filter(function (sym) {return Object.getOwnPropertyDescriptor(object, sym).enumerable;});keys.push.apply(keys, symbols);}return keys;}function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};if (i % 2) {ownKeys(Object(source), true).forEach(function (key) {_defineProperty(target, key, source[key]);});} else if (Object.getOwnPropertyDescriptors) {Object.defineProperties(target, Object.getOwnPropertyDescriptors(source));} else {ownKeys(Object(source)).forEach(function (key) {Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key));});}}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}var rfSearchBar = function rfSearchBar() {Promise.all(/*! require.ensure | components/rf-search-bar/index */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/rf-search-bar/index")]).then((function () {return resolve(__webpack_require__(/*! @/components/rf-search-bar */ 544));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var rfAttrContent = function rfAttrContent() {__webpack_require__.e(/*! require.ensure | components/rf-attr-content/index */ "components/rf-attr-content/index").then((function () {return resolve(__webpack_require__(/*! @/components/rf-attr-content */ 584));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default =
+
+
 {
   components: {
     rfSearchBar: rfSearchBar,
@@ -307,8 +275,7 @@ var _vuex = __webpack_require__(/*! vuex */ 16);function _interopRequireDefault(
     this.initData();
   },
   methods: _objectSpread(_objectSpread({
-    moveHandle: function moveHandle() {
-    } },
+    moveHandle: function moveHandle() {} },
   (0, _vuex.mapMutations)(['setCartNum'])), {}, {
     // 监听二级分类变化
     handleCategoryInvertedChange: function handleCategoryInvertedChange(item, index) {
@@ -392,7 +359,9 @@ var _vuex = __webpack_require__(/*! vuex */ 16);function _interopRequireDefault(
     },
     // 跳转至商品列表
     navTo: function navTo(route) {
-      this.$mRouter.push({ route: route });
+      this.$mRouter.push({
+        route: route });
+
     },
     // 数据初始化
     initData: function initData() {var _this5 = this;return _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee6() {return _regenerator.default.wrap(function _callee6$(_context6) {while (1) {switch (_context6.prev = _context6.next) {case 0:
@@ -415,7 +384,9 @@ var _vuex = __webpack_require__(/*! vuex */ 16);function _interopRequireDefault(
 
                 } else {
                   uni.removeStorageSync('cartNum');
-                  uni.removeTabBarBadge({ index: _this6.$mConstDataConfig.cartIndex });
+                  uni.removeTabBarBadge({
+                    index: _this6.$mConstDataConfig.cartIndex });
+
                 }case 1:case "end":return _context7.stop();}}}, _callee7);}))();
     },
     // 获取商品分类列表

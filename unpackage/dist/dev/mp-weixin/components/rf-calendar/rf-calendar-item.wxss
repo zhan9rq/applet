@@ -54,7 +54,8 @@
   right: 5px;
   width: 8px;
   height: 8px;
-  border-radius: 8px;
+  -webkit-border-radius: 8px;
+          border-radius: 8px;
   background-color: #dd524d;
 }
 .uni-calendar-item--disable.data-v-3f1a84fc {

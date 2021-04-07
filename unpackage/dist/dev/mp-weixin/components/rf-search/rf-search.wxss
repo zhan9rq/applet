@@ -10,7 +10,8 @@
   display: -webkit-flex;
   display: flex;
   width: 100%;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-size: 28rpx;
 }
 .serach .content {
@@ -26,7 +27,8 @@
   overflow: hidden;
   -webkit-transition: all 0.2s linear;
   transition: all 0.2s linear;
-  border-radius: 30px;
+  -webkit-border-radius: 30px;
+          border-radius: 30px;
 }
 .serach .content .content-box {
   width: 100%;

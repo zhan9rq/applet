@@ -12,7 +12,8 @@ page {
 .rf-scroll-box {
   width: 100%;
   height: 480rpx;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   position: relative;
   z-index: 99;
   color: #fff;
@@ -24,7 +25,8 @@ page {
   height: 80rpx;
   font-size: 28rpx;
   padding: 20rpx 40rpx 20rpx 40rpx;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   display: inline-block;
   width: 50%;
 }
@@ -34,7 +36,8 @@ page {
   position: absolute;
   left: 0;
   bottom: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
@@ -51,10 +54,13 @@ page {
   width: 100%;
   position: absolute;
   background: #fff;
-  border-bottom-left-radius: 24rpx;
-  border-bottom-right-radius: 24rpx;
+  -webkit-border-bottom-left-radius: 24rpx;
+          border-bottom-left-radius: 24rpx;
+  -webkit-border-bottom-right-radius: 24rpx;
+          border-bottom-right-radius: 24rpx;
   overflow: hidden;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   padding-top: 10rpx;
   padding-bottom: 26rpx;
   left: 0;
@@ -93,7 +99,8 @@ page {
   height: 70rpx;
   font-size: 28rpx;
   padding: 0 40rpx;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
@@ -123,7 +130,8 @@ page {
   -webkit-justify-content: space-between;
           justify-content: space-between;
   padding: 0 30rpx;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   height: 80rpx;
 }
 .rf-title-bold {
@@ -166,12 +174,14 @@ page {
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
           justify-content: space-between;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 .rf-input {
   border: 0;
   height: 64rpx;
-  border-radius: 32rpx;
+  -webkit-border-radius: 32rpx;
+          border-radius: 32rpx;
   width: 45%;
   background: #f7f7f7;
   text-align: center;
@@ -203,8 +213,10 @@ page {
   -webkit-justify-content: center;
           justify-content: center;
   padding: 0 4rpx;
-  box-sizing: border-box;
-  border-radius: 32rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-border-radius: 32rpx;
+          border-radius: 32rpx;
   margin-right: 5%;
   margin-bottom: 5%;
 }
@@ -223,7 +235,8 @@ page {
   position: absolute;
   left: 0;
   bottom: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   padding: 0 30rpx;
   background: #fff;
 }
@@ -258,7 +271,8 @@ page {
   width: 47%;
   text-align: center;
   height: 60rpx;
-  border-radius: 30rpx;
+  -webkit-border-radius: 30rpx;
+          border-radius: 30rpx;
   -webkit-flex-shrink: 0;
           flex-shrink: 0;
   display: -webkit-box;
@@ -270,7 +284,8 @@ page {
   -webkit-box-pack: center;
   -webkit-justify-content: center;
           justify-content: center;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 .rf-drawerbtn-black {
   border: 1rpx solid;
@@ -324,7 +339,8 @@ page {
 .product-list .rf-header-box .input-box {
   width: 100%;
   font-size: 24rpx;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   color: #999;
   display: -webkit-box;
   display: -webkit-flex;
@@ -335,7 +351,8 @@ page {
   overflow: hidden;
   height: 60rpx;
   background-color: #f8f8f8;
-  border-radius: 30rpx;
+  -webkit-border-radius: 30rpx;
+          border-radius: 30rpx;
   position: relative;
   margin: 0 20rpx 0 10rpx;
 }
@@ -412,7 +429,8 @@ page {
 .product-list .rf-header-screen .rf-screen-bottom {
   height: 100rpx;
   padding: 0 30rpx;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-size: 24rpx;
   -webkit-box-align: center;
   -webkit-align-items: center;
@@ -439,11 +457,13 @@ page {
   -webkit-justify-content: center;
           justify-content: center;
   padding: 0 12rpx;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin-right: 20rpx;
   white-space: nowrap;
   height: 60rpx;
-  border-radius: 40rpx;
+  -webkit-border-radius: 40rpx;
+          border-radius: 40rpx;
 }
 .product-list .rf-header-screen .rf-bottom-item:last-child {
   margin-right: 0;
@@ -473,7 +493,8 @@ page {
   vertical-align: middle;
 }
 .product-list .rf-btmItem-active {
-  border-radius: 32rpx;
+  -webkit-border-radius: 32rpx;
+          border-radius: 32rpx;
   font-weight: bold;
   position: relative;
 }
@@ -486,14 +507,17 @@ page {
   position: absolute;
   width: 100%;
   height: 100%;
-  border-radius: 40rpx;
+  -webkit-border-radius: 40rpx;
+          border-radius: 40rpx;
   left: 0;
   top: 0;
 }
 .product-list .rf-btmItem-tap {
   position: relative;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
+  -webkit-border-bottom-left-radius: 0;
+          border-bottom-left-radius: 0;
+  -webkit-border-bottom-right-radius: 0;
+          border-bottom-right-radius: 0;
 }
 .product-list .rf-btmItem-tap::after {
   content: "";

@@ -54,9 +54,11 @@ page {
   width: 90%;
   height: 520rpx;
   background-color: #fff;
-  border-radius: 12rpx;
+  -webkit-border-radius: 12rpx;
+          border-radius: 12rpx;
   margin: -80rpx 5% 0;
-  box-shadow: 0rpx 5rpx 25rpx rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 0rpx 5rpx 25rpx rgba(0, 0, 0, 0.05);
+          box-shadow: 0rpx 5rpx 25rpx rgba(0, 0, 0, 0.05);
 }
 .pay-success .pay-card .pay-card-money {
   text-align: center;
