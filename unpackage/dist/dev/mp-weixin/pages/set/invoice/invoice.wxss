@@ -25,8 +25,7 @@ page {
   font-size: 24rpx;
   margin-right: 10rpx;
   border: 1px solid;
-  -webkit-border-radius: 4rpx;
-          border-radius: 4rpx;
+  border-radius: 4rpx;
   padding: 0 12rpx;
 }
 .invoice-list .u-box {

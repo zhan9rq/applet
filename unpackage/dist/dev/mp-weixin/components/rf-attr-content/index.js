@@ -89,7 +89,7 @@ var render = function() {
 
       var m0 =
         childItem.base_spec_id === item.base_spec_id
-          ? parseInt(item.show_type)
+          ? childItem.selected && parseInt(item.show_type) === 2
           : null
       var m1 =
         childItem.base_spec_id === item.base_spec_id
@@ -118,20 +118,22 @@ var render = function() {
     }
   })
 
-  var m4 = _vm.isSelectedNum ? parseInt(_vm.product.min_buy, 10) : null
-  var m5 = _vm.isSelectedNum ? parseInt(_vm.product.max_buy, 10) : null
-  var m6 =
-    _vm.isSelectedNum && _vm.maxNum === 0
-      ? parseInt(_vm.stock || _vm.product.stock, 10)
-      : null
+  var m4 = _vm.isSelectedNum
+    ? parseInt(_vm.product.min_buy, 10) || _vm.minNum
+    : null
+  var m5 = _vm.isSelectedNum
+    ? parseInt(_vm.product.max_buy, 10) ||
+      (_vm.maxNum === 0
+        ? parseInt(_vm.stock || _vm.product.stock, 10)
+        : _vm.maxNum)
+    : null
   _vm.$mp.data = Object.assign(
     {},
     {
       $root: {
         l1: l1,
         m4: m4,
-        m5: m5,
-        m6: m6
+        m5: m5
       }
     }
   )

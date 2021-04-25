@@ -73,8 +73,7 @@ page {
 .pay-type-list .type-item {
   padding: 0 30rpx;
   height: 100rpx;
-  -webkit-border-radius: 100rpx;
-          border-radius: 100rpx;
+  border-radius: 100rpx;
   margin-bottom: 30rpx;
   display: -webkit-box;
   display: -webkit-flex;

@@ -124,7 +124,8 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   var m0 = _vm.orderDetail.products
-    ? parseInt(_vm.currentShippingType.value, 10)
+    ? parseInt(_vm.currentShippingType.value, 10) === 1 &&
+      _vm.orderDetail.company.length > 0
     : null
   var m1 = _vm.orderDetail.products
     ? parseInt(_vm.currentShippingType.value, 10)

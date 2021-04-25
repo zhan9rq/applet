@@ -13,8 +13,7 @@
   width: 72rpx;
   background-color: #000;
   opacity: 0.5;
-  -webkit-border-radius: 50%;
-          border-radius: 50%;
+  border-radius: 50%;
   position: fixed;
   display: -webkit-box;
   display: -webkit-flex;
@@ -52,8 +51,7 @@
   margin-top: -10vw;
   width: 60vw;
   height: 60vw;
-  -webkit-border-radius: 12rpx;
-          border-radius: 12rpx;
+  border-radius: 12rpx;
   z-index: 98;
 }
 

@@ -24,8 +24,7 @@
   height: 60rpx;
   font-size: 32rpx;
   border: 0;
-  -webkit-border-radius: 60rpx;
-          border-radius: 60rpx;
+  border-radius: 60rpx;
   -webkit-appearance: none;
   appearance: none;
   padding: 0 3%;
@@ -39,8 +38,7 @@
 .rf-search .search-keyword .keyword-list-box {
   height: calc(100vh - 110rpx);
   padding-top: 10rpx;
-  -webkit-border-radius: 20rpx 20rpx 0 0;
-          border-radius: 20rpx 20rpx 0 0;
+  border-radius: 20rpx 20rpx 0 0;
   background-color: #fff;
 }
 .rf-search .search-keyword .keyword-entry {
@@ -74,8 +72,7 @@
           justify-content: center;
 }
 .rf-search .search-keyword .keyword-box {
-  -webkit-border-radius: 20rpx 20rpx 0 0;
-          border-radius: 20rpx 20rpx 0 0;
+  border-radius: 20rpx 20rpx 0 0;
   background-color: #fff;
 }
 .rf-search .search-keyword .keyword-box .keyword-block {
@@ -129,8 +126,7 @@
   -webkit-box-align: center;
   -webkit-align-items: center;
           align-items: center;
-  -webkit-border-radius: 60rpx;
-          border-radius: 60rpx;
+  border-radius: 60rpx;
   padding: 0 20rpx;
   margin: 10rpx 20rpx 10rpx 0;
   height: 60rpx;

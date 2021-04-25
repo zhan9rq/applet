@@ -7,8 +7,7 @@
 	width: 24px;
 	height: 24px;
 	margin-right: 4px;
-	-webkit-border-radius: 100%;
-	        border-radius: 100%;
+	border-radius: 100%;
 	display: inline-block;
 	-webkit-animation: bouncedelay-data-v-6b1e1778 1.4s infinite ease-in-out;
 	animation: bouncedelay-data-v-6b1e1778 1.4s infinite ease-in-out;

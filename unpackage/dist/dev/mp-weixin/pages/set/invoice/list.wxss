@@ -27,8 +27,7 @@ page {
   margin-right: 10rpx;
   background: #fffafb;
   border: 1px solid #ffb4c7;
-  -webkit-border-radius: 4rpx;
-          border-radius: 4rpx;
+  border-radius: 4rpx;
   padding: 4rpx 10rpx;
   line-height: 1;
 }
@@ -74,8 +73,7 @@ page {
   margin-right: 10rpx;
   background: #fffafb;
   border: 1px solid #ffb4c7;
-  -webkit-border-radius: 4rpx;
-          border-radius: 4rpx;
+  border-radius: 4rpx;
   padding: 4rpx 10rpx;
   line-height: 1;
 }

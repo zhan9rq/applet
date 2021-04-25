@@ -12,8 +12,7 @@ page {
   width: 80rpx;
   height: 80rpx;
   margin: 30rpx 30rpx 30rpx 0;
-  -webkit-border-radius: 50%;
-          border-radius: 50%;
+  border-radius: 50%;
 }
 .authorization-list .rf-list .mid {
   -webkit-box-flex: 1;

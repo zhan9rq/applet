@@ -50,8 +50,7 @@ page {
   background: #f8f6fc;
   height: 80rpx;
   line-height: 80rpx;
-  -webkit-border-radius: 4px;
-          border-radius: 4px;
+  border-radius: 4px;
   margin-bottom: 40rpx;
 }
 .evaluation .input-content .input-item:last-child {
@@ -79,13 +78,11 @@ page {
   width: 630rpx;
   height: 76rpx;
   line-height: 76rpx;
-  -webkit-border-radius: 50px;
-          border-radius: 50px;
+  border-radius: 50px;
   margin-top: 50rpx;
   font-size: 32rpx;
 }
 .evaluation .confirm-btn:after {
-  -webkit-border-radius: 100px;
-          border-radius: 100px;
+  border-radius: 100px;
 }
 

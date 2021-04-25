@@ -227,21 +227,22 @@ var _vuex = __webpack_require__(/*! vuex */ 16);function _interopRequireDefault(
                 _this.initData());case 2:case "end":return _context.stop();}}}, _callee);}))();
   },
   methods: _objectSpread(_objectSpread({},
-  (0, _vuex.mapMutations)(['setCartNum', 'setNotifyNum'])), {}, {
+  (0, _vuex.mapMutations)(["setCartNum", "setNotifyNum"])), {}, {
     // 数据初始化
     initData: function initData() {var _this2 = this;return _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee2() {var token;return _regenerator.default.wrap(function _callee2$(_context2) {while (1) {switch (_context2.prev = _context2.next) {case 0:
                 uni.setTabBarStyle({
                   selectedColor: _this2.themeColor.color,
-                  borderStyle: 'white' });
+                  borderStyle: "white" });
 
-                _this2.themeColor.tabList && _this2.themeColor.tabList.forEach(function (selectedIconPath, index) {
+                _this2.themeColor.tabList &&
+                _this2.themeColor.tabList.forEach(function (selectedIconPath, index) {
                   uni.setTabBarItem({
                     index: index,
                     selectedIconPath: selectedIconPath });
 
                 });
                 // 获取页面设置配置
-                token = uni.getStorageSync('accessToken');
+                token = uni.getStorageSync("accessToken");
                 // 获取系统title高度
                 _context2.next = 5;return _this2.initSystemInfo();case 5:if (!
                 token) {_context2.next = 8;break;}_context2.next = 8;return (
@@ -249,8 +250,8 @@ var _vuex = __webpack_require__(/*! vuex */ 16);function _interopRequireDefault(
 
                 if (_this2.$mStore.getters.hasLogin) {
                   // 初始化购物车数量
-                  _this2.setCartNum(uni.getStorageSync('cartNum') || 0);
-                  _this2.setNotifyNum(uni.getStorageSync('notifyNum') || 0);
+                  _this2.setCartNum(uni.getStorageSync("cartNum") || 0);
+                  _this2.setNotifyNum(uni.getStorageSync("notifyNum") || 0);
 
 
 
@@ -291,7 +292,7 @@ var _vuex = __webpack_require__(/*! vuex */ 16);function _interopRequireDefault(
     handleVerifyAccessToken: function handleVerifyAccessToken(token) {var _this3 = this;return _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee3() {return _regenerator.default.wrap(function _callee3$(_context3) {while (1) {switch (_context3.prev = _context3.next) {case 0:_context3.next = 2;return (
                   _this3.$http.post(_login.verifyAccessToken, { token: token }).then(function (r) {
                     if (!r.data.token) {
-                      _this3.$mStore.commit('logout');
+                      _this3.$mStore.commit("logout");
                     }
                   }));case 2:case "end":return _context3.stop();}}}, _callee3);}))();
     } }) };exports.default = _default;

@@ -31,16 +31,13 @@ textarea,
 label,
 navigator,
 image {
-	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
+	box-sizing: border-box;
 }
 .round {
-	-webkit-border-radius: 5000rpx;
-	        border-radius: 5000rpx;
+	border-radius: 5000rpx;
 }
 .radius {
-	-webkit-border-radius: 6rpx;
-	        border-radius: 6rpx;
+	border-radius: 6rpx;
 }
 /* ==================
           图片
@@ -157,8 +154,7 @@ checkbox .uni-checkbox-input {
 }
 checkbox.round .wx-checkbox-input,
 checkbox.round .uni-checkbox-input {
-	-webkit-border-radius: 100rpx;
-	        border-radius: 100rpx;
+	border-radius: 100rpx;
 }
 switch[checked]::before {
 	-webkit-transform: scale(0, 0);
@@ -171,8 +167,7 @@ switch .uni-switch-input {
 	width: 48px;
 	height: 26px;
 	margin: 0;
-	-webkit-border-radius: 100rpx;
-	        border-radius: 100rpx;
+	border-radius: 100rpx;
 }
 switch .wx-switch-input:not([class*="bg-"]),
 switch .uni-switch-input:not([class*="bg-"]) {
@@ -183,8 +178,7 @@ switch .uni-switch-input::after {
 	margin: auto;
 	width: 26px;
 	height: 26px;
-	-webkit-border-radius: 100rpx;
-	        border-radius: 100rpx;
+	border-radius: 100rpx;
 	left: 0rpx;
 	top: 0rpx;
 	bottom: 0rpx;
@@ -198,8 +192,7 @@ switch .wx-switch-input.wx-switch-input-checked::after,
 switch .uni-switch-input.uni-switch-input-checked::after {
 	margin: auto;
 	left: 22px;
-	-webkit-box-shadow: none;
-	        box-shadow: none;
+	box-shadow: none;
 	-webkit-transform: scale(0.9, 0.9);
 	        transform: scale(0.9, 0.9);
 }
@@ -212,8 +205,7 @@ switch.radius .wx-switch-input::before,
 switch.radius .uni-switch-input::after,
 switch.radius .uni-switch-input,
 switch.radius .uni-switch-input::before {
-	-webkit-border-radius: 10rpx;
-	        border-radius: 10rpx;
+	border-radius: 10rpx;
 }
 switch .wx-switch-input::before,
 radio.radio::before,
@@ -239,8 +231,7 @@ radio.radio .uni-radio-input-checked::after {
 	right: 0;
 	bottom: 0;
 	margin: auto;
-	-webkit-border-radius: 200rpx;
-	        border-radius: 200rpx;
+	border-radius: 200rpx;
 
 
 
@@ -460,15 +451,13 @@ radio.white.checked .uni-radio-input {
 	position: absolute;
 	top: 0;
 	left: 0;
-	-webkit-border-radius: inherit;
-	        border-radius: inherit;
+	border-radius: inherit;
 	-webkit-transform: scale(0.5);
 	        transform: scale(0.5);
 	-webkit-transform-origin: 0 0;
 	        transform-origin: 0 0;
 	pointer-events: none;
-	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
+	box-sizing: border-box;
 }
 .solid::after {
 	border: 1rpx solid rgba(0, 0, 0, 0.1);
@@ -525,8 +514,7 @@ radio.white.checked .uni-radio-input {
 }
 .shadow-warp {
 	position: relative;
-	-webkit-box-shadow: 0 0 10rpx rgba(0, 0, 0, 0.1);
-	        box-shadow: 0 0 10rpx rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 10rpx rgba(0, 0, 0, 0.1);
 }
 .shadow-warp:before,
 .shadow-warp:after {
@@ -536,8 +524,7 @@ radio.white.checked .uni-radio-input {
 	bottom: 30rpx;
 	left: 20rpx;
 	width: 50%;
-	-webkit-box-shadow: 0 30rpx 20rpx rgba(0, 0, 0, 0.2);
-	        box-shadow: 0 30rpx 20rpx rgba(0, 0, 0, 0.2);
+	box-shadow: 0 30rpx 20rpx rgba(0, 0, 0, 0.2);
 	-webkit-transform: rotate(-3deg);
 	        transform: rotate(-3deg);
 	z-index: -1;
@@ -566,8 +553,7 @@ radio.white.checked .uni-radio-input {
 	opacity: 0.4;
 	-webkit-transform-origin: 0 0;
 	        transform-origin: 0 0;
-	-webkit-border-radius: inherit;
-	        border-radius: inherit;
+	border-radius: inherit;
 	-webkit-transform: scale(1, 1);
 	        transform: scale(1, 1);
 }
@@ -586,8 +572,7 @@ radio.white.checked .uni-radio-input {
 	-webkit-box-pack: center;
 	-webkit-justify-content: center;
 	        justify-content: center;
-	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
+	box-sizing: border-box;
 	padding: 0 30rpx;
 	font-size: 28rpx;
 	height: 64rpx;
@@ -622,16 +607,13 @@ radio.white.checked .uni-radio-input {
 	        transform: scale(0.5);
 	-webkit-transform-origin: 0 0;
 	        transform-origin: 0 0;
-	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
-	-webkit-border-radius: 12rpx;
-	        border-radius: 12rpx;
+	box-sizing: border-box;
+	border-radius: 12rpx;
 	z-index: 1;
 	pointer-events: none;
 }
 .cu-btn.round[class*="line"]::after {
-	-webkit-border-radius: 1000rpx;
-	        border-radius: 1000rpx;
+	border-radius: 1000rpx;
 }
 .cu-btn[class*="lines"]::after {
 	border: 6rpx solid currentColor;
@@ -656,8 +638,7 @@ radio.white.checked .uni-radio-input {
 .cu-btn.cuIcon {
 	width: 64rpx;
 	height: 64rpx;
-	-webkit-border-radius: 500rpx;
-	        border-radius: 500rpx;
+	border-radius: 500rpx;
 	padding: 0;
 }
 button.cuIcon.lg {
@@ -703,8 +684,7 @@ button.cuIcon.lg {
 	-webkit-box-pack: center;
 	-webkit-justify-content: center;
 	        justify-content: center;
-	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
+	box-sizing: border-box;
 	padding: 0rpx 16rpx;
 	height: 48rpx;
 	font-family: Helvetica Neue, Helvetica, sans-serif;
@@ -725,24 +705,19 @@ button.cuIcon.lg {
 	        transform: scale(0.5);
 	-webkit-transform-origin: 0 0;
 	        transform-origin: 0 0;
-	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
-	-webkit-border-radius: inherit;
-	        border-radius: inherit;
+	box-sizing: border-box;
+	border-radius: inherit;
 	z-index: 1;
 	pointer-events: none;
 }
 .cu-tag.radius[class*="line"]::after {
-	-webkit-border-radius: 12rpx;
-	        border-radius: 12rpx;
+	border-radius: 12rpx;
 }
 .cu-tag.round[class*="line"]::after {
-	-webkit-border-radius: 1000rpx;
-	        border-radius: 1000rpx;
+	border-radius: 1000rpx;
 }
 .cu-tag[class*="line-"]::after {
-	-webkit-border-radius: 0;
-	        border-radius: 0;
+	border-radius: 0;
 }
 .cu-tag+.cu-tag {
 	margin-left: 10rpx;
@@ -771,36 +746,27 @@ button.cuIcon.lg {
 	border-right: 0rpx solid transparent;
 }
 .cu-capsule.radius .cu-tag:first-child {
-	-webkit-border-top-left-radius: 6rpx;
-	        border-top-left-radius: 6rpx;
-	-webkit-border-bottom-left-radius: 6rpx;
-	        border-bottom-left-radius: 6rpx;
+	border-top-left-radius: 6rpx;
+	border-bottom-left-radius: 6rpx;
 }
 .cu-capsule.radius .cu-tag:last-child::after,
 .cu-capsule.radius .cu-tag[class*="line-"] {
-	-webkit-border-top-right-radius: 12rpx;
-	        border-top-right-radius: 12rpx;
-	-webkit-border-bottom-right-radius: 12rpx;
-	        border-bottom-right-radius: 12rpx;
+	border-top-right-radius: 12rpx;
+	border-bottom-right-radius: 12rpx;
 }
 .cu-capsule.round .cu-tag:first-child {
-	-webkit-border-top-left-radius: 200rpx;
-	        border-top-left-radius: 200rpx;
-	-webkit-border-bottom-left-radius: 200rpx;
-	        border-bottom-left-radius: 200rpx;
+	border-top-left-radius: 200rpx;
+	border-bottom-left-radius: 200rpx;
 	text-indent: 4rpx;
 }
 .cu-capsule.round .cu-tag:last-child::after,
 .cu-capsule.round .cu-tag:last-child {
-	-webkit-border-top-right-radius: 200rpx;
-	        border-top-right-radius: 200rpx;
-	-webkit-border-bottom-right-radius: 200rpx;
-	        border-bottom-right-radius: 200rpx;
+	border-top-right-radius: 200rpx;
+	border-bottom-right-radius: 200rpx;
 	text-indent: -4rpx;
 }
 .cu-tag.badge {
-	-webkit-border-radius: 200rpx;
-	        border-radius: 200rpx;
+	border-radius: 200rpx;
 	position: absolute;
 	top: -10rpx;
 	right: -10rpx;
@@ -887,8 +853,7 @@ button.cuIcon.lg {
 	border: 1rpx solid #f1f1f1;
 }
 .cu-avatar-circle {
-	-webkit-border-radius: 50%;
-	        border-radius: 50%;
+	border-radius: 50%;
 }
 /* ==================
          进度条
@@ -1029,10 +994,8 @@ to {
 	width: 260rpx;
 	height: 260rpx;
 	background-color: #ffffff;
-	-webkit-border-radius: 10rpx;
-	        border-radius: 10rpx;
-	-webkit-box-shadow: 0 0 0rpx 2000rpx rgba(0, 0, 0, 0.5);
-	        box-shadow: 0 0 0rpx 2000rpx rgba(0, 0, 0, 0.5);
+	border-radius: 10rpx;
+	box-shadow: 0 0 0rpx 2000rpx rgba(0, 0, 0, 0.5);
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: flex;
@@ -1056,15 +1019,13 @@ to {
 .cu-load.load-modal image {
 	width: 70rpx;
 	height: 70rpx;
-	-webkit-border-radius: 50%;
-	        border-radius: 50%;
+	border-radius: 50%;
 }
 .cu-load.load-modal::after {
 	content: "";
 	position: absolute;
 	background-color: #ffffff;
-	-webkit-border-radius: 50%;
-	        border-radius: 50%;
+	border-radius: 50%;
 	width: 200rpx;
 	height: 200rpx;
 	font-size: 10px;
@@ -1107,13 +1068,11 @@ to {
 	display: block;
 	width: 24rpx;
 	height: 24rpx;
-	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	border: solid 4rpx;
 	border-top-color: inherit;
 	border-left-color: inherit;
-	-webkit-border-radius: 50%;
-	        border-radius: 50%;
+	border-radius: 50%;
 	-webkit-animation: load-progress-spinner 0.4s linear infinite;
 	animation: load-progress-spinner 0.4s linear infinite;
 }
@@ -1278,13 +1237,11 @@ to {
 	position: absolute;
 	top: 0;
 	left: 0;
-	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
+	box-sizing: border-box;
 	width: 200%;
 	height: 200%;
 	border-bottom: 1rpx solid #ddd;
-	-webkit-border-radius: inherit;
-	        border-radius: inherit;
+	border-radius: inherit;
 	content: " ";
 	-webkit-transform: scale(.5);
 	        transform: scale(.5);
@@ -1393,14 +1350,12 @@ to {
 	position: absolute;
 	top: 0;
 	left: 0;
-	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
+	box-sizing: border-box;
 	width: 200%;
 	height: 200%;
 	border-right: 1px solid rgba(0, 0, 0, .1);
 	border-bottom: 1px solid rgba(0, 0, 0, .1);
-	-webkit-border-radius: inherit;
-	        border-radius: inherit;
+	border-radius: inherit;
 	content: " ";
 	-webkit-transform: scale(.5);
 	        transform: scale(.5);
@@ -1450,8 +1405,7 @@ to {
 	overflow: hidden;
 	margin-right: 30rpx;
 	margin-left: 30rpx;
-	-webkit-border-radius: 20rpx;
-	        border-radius: 20rpx
+	border-radius: 20rpx
 }
 /* ==================
           操作条
@@ -1505,8 +1459,7 @@ to {
 	position: absolute;
 	display: inline-block;
 	bottom: -0.2rem;
-	-webkit-border-radius: 6rpx;
-	        border-radius: 6rpx;
+	border-radius: 6rpx;
 	width: 100%;
 	height: 0.6rem;
 	left: 0.6rem;
@@ -1636,16 +1589,14 @@ to {
 	width: 100%;
 	top: 0;
 	z-index: 1024;
-	-webkit-box-shadow: 0 1rpx 6rpx rgba(0, 0, 0, 0.1);
-	        box-shadow: 0 1rpx 6rpx rgba(0, 0, 0, 0.1);
+	box-shadow: 0 1rpx 6rpx rgba(0, 0, 0, 0.1);
 }
 .cu-bar.foot {
 	position: fixed;
 	width: 100%;
 	bottom: 0;
 	z-index: 1024;
-	-webkit-box-shadow: 0 -1rpx 6rpx rgba(0, 0, 0, 0.1);
-	        box-shadow: 0 -1rpx 6rpx rgba(0, 0, 0, 0.1);
+	box-shadow: 0 -1rpx 6rpx rgba(0, 0, 0, 0.1);
 }
 .cu-bar.tabbar {
 	padding: 0;
@@ -1657,8 +1608,7 @@ to {
 	height: calc(100rpx + env(safe-area-inset-bottom) / 2);
 }
 .cu-bar.tabbar.shadow {
-	-webkit-box-shadow: 0 -1rpx 6rpx rgba(0, 0, 0, 0.1);
-	        box-shadow: 0 -1rpx 6rpx rgba(0, 0, 0, 0.1);
+	box-shadow: 0 -1rpx 6rpx rgba(0, 0, 0, 0.1);
 }
 .cu-bar.tabbar .action {
 	font-size: 22rpx;
@@ -1691,8 +1641,7 @@ to {
 	width: 70rpx;
 	z-index: 2;
 	height: 70rpx;
-	-webkit-border-radius: 50%;
-	        border-radius: 50%;
+	border-radius: 50%;
 	line-height: 70rpx;
 	font-size: 50rpx;
 	top: -35rpx;
@@ -1710,10 +1659,8 @@ to {
 	left: 0;
 	right: 0;
 	margin: auto;
-	-webkit-box-shadow: 0 -3rpx 8rpx rgba(0, 0, 0, 0.08);
-	        box-shadow: 0 -3rpx 8rpx rgba(0, 0, 0, 0.08);
-	-webkit-border-radius: 50rpx;
-	        border-radius: 50rpx;
+	box-shadow: 0 -3rpx 8rpx rgba(0, 0, 0, 0.08);
+	border-radius: 50rpx;
 	background-color: inherit;
 	z-index: 0;
 }
@@ -1855,15 +1802,13 @@ to {
 
 
 
-	-webkit-box-shadow: 0rpx 0rpx 0rpx;
-	        box-shadow: 0rpx 0rpx 0rpx;
+	box-shadow: 0rpx 0rpx 0rpx;
 	z-index: 9999;
 }
 .cu-custom .cu-bar .border-custom {
 	position: relative;
 	background: rgba(0, 0, 0, 0.15);
-	-webkit-border-radius: 1000rpx;
-	        border-radius: 1000rpx;
+	border-radius: 1000rpx;
 	height: 30px;
 }
 .cu-custom .cu-bar .border-custom::after {
@@ -1873,15 +1818,13 @@ to {
 	position: absolute;
 	top: 0;
 	left: 0;
-	-webkit-border-radius: inherit;
-	        border-radius: inherit;
+	border-radius: inherit;
 	-webkit-transform: scale(0.5);
 	        transform: scale(0.5);
 	-webkit-transform-origin: 0 0;
 	        transform-origin: 0 0;
 	pointer-events: none;
-	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
+	box-sizing: border-box;
 	border: 1rpx solid #ffffff;
 	opacity: 0.5;
 }
@@ -1899,8 +1842,7 @@ to {
 	-webkit-transform-origin: 0 0;
 	        transform-origin: 0 0;
 	pointer-events: none;
-	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
+	box-sizing: border-box;
 	opacity: 0.6;
 	background-color: #ffffff;
 }
@@ -1995,8 +1937,7 @@ to {
 }
 .cu-timeline>.cu-item>.content {
 	padding: 30rpx;
-	-webkit-border-radius: 6rpx;
-	        border-radius: 6rpx;
+	border-radius: 6rpx;
 	display: block;
 	line-height: 1.6;
 }
@@ -2045,8 +1986,7 @@ to {
 }
 .cu-chat .cu-item>.main .content {
 	padding: 20rpx;
-	-webkit-border-radius: 6rpx;
-	        border-radius: 6rpx;
+	border-radius: 6rpx;
 	display: -webkit-inline-box;
 	display: -webkit-inline-flex;
 	display: inline-flex;
@@ -2138,8 +2078,7 @@ to {
 	font-size: 24rpx;
 	padding: 8rpx 12rpx;
 	background-color: rgba(0, 0, 0, 0.2);
-	-webkit-border-radius: 6rpx;
-	        border-radius: 6rpx;
+	border-radius: 6rpx;
 	color: #ffffff;
 	max-width: 400rpx;
 	line-height: 1.4;
@@ -2155,8 +2094,7 @@ to {
 	display: block;
 	background-color: #ffffff;
 	overflow: hidden;
-	-webkit-border-radius: 10rpx;
-	        border-radius: 10rpx;
+	border-radius: 10rpx;
 	margin: 30rpx;
 }
 .cu-card>.cu-item.shadow-blur {
@@ -2164,8 +2102,7 @@ to {
 }
 .cu-card.no-card>.cu-item {
 	margin: 0rpx;
-	-webkit-border-radius: 0rpx;
-	        border-radius: 0rpx;
+	border-radius: 0rpx;
 }
 .cu-card .grid.grid-square {
 	margin-bottom: -20rpx;
@@ -2191,8 +2128,7 @@ to {
 .cu-card.case.no-card .image {
 	margin: 30rpx 30rpx 0;
 	overflow: hidden;
-	-webkit-border-radius: 10rpx;
-	        border-radius: 10rpx;
+	border-radius: 10rpx;
 }
 .cu-card.dynamic {
 	display: block;
@@ -2212,14 +2148,12 @@ to {
 .cu-card.dynamic>.cu-item .square-img {
 	width: 100%;
 	height: 200rpx;
-	-webkit-border-radius: 6rpx;
-	        border-radius: 6rpx;
+	border-radius: 6rpx;
 }
 .cu-card.dynamic>.cu-item .only-img {
 	width: 100%;
 	height: 320rpx;
-	-webkit-border-radius: 6rpx;
-	        border-radius: 6rpx;
+	border-radius: 6rpx;
 }
 /* card.dynamic>.cu-item .comment {
   padding: 20upx;
@@ -2250,8 +2184,7 @@ to {
 	width: 240rpx;
 	height: 6.4em;
 	margin-right: 20rpx;
-	-webkit-border-radius: 6rpx;
-	        border-radius: 6rpx;
+	border-radius: 6rpx;
 }
 .cu-card.article>.cu-item .content .desc {
 	-webkit-box-flex: 1;
@@ -2313,8 +2246,7 @@ to {
 .cu-form-group>text[class*="cuIcon-"] {
 	font-size: 36rpx;
 	padding: 0;
-	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
+	box-sizing: border-box;
 }
 .cu-form-group textarea {
 	margin: 32rpx 0 30rpx;
@@ -2417,8 +2349,7 @@ to {
 	width: 680rpx;
 	max-width: 100%;
 	background-color: #f8f8f8;
-	-webkit-border-radius: 10rpx;
-	        border-radius: 10rpx;
+	border-radius: 10rpx;
 	overflow: hidden;
 }
 .cu-modal.bottom-modal::before {
@@ -2426,8 +2357,7 @@ to {
 }
 .cu-modal.bottom-modal .cu-dialog {
 	width: 100%;
-	-webkit-border-radius: 0;
-	        border-radius: 0;
+	border-radius: 0;
 }
 .cu-modal.bottom-modal {
 	margin-bottom: -1000rpx;
@@ -2445,8 +2375,7 @@ to {
 .cu-modal.drawer-modal .cu-dialog {
 	height: 100%;
 	min-width: 200rpx;
-	-webkit-border-radius: 0;
-	        border-radius: 0;
+	border-radius: 0;
 	margin: initial;
 	-webkit-transition-duration: 0.3s;
 	        transition-duration: 0.3s;
@@ -2476,8 +2405,7 @@ swiper .a-swiper-dot {
 	width: 16rpx;
 	height: 16rpx;
 	background: rgba(0, 0, 0, .3);
-	-webkit-border-radius: 50%;
-	        border-radius: 50%;
+	border-radius: 50%;
 	vertical-align: middle;
 }
 swiper[class*="-dot"] .wx-swiper-dots,
@@ -2501,8 +2429,7 @@ swiper.square-dot .uni-swiper-dot {
 	opacity: 0.4;
 	width: 10rpx;
 	height: 10rpx;
-	-webkit-border-radius: 20rpx;
-	        border-radius: 20rpx;
+	border-radius: 20rpx;
 	margin: 0 8rpx !important;
 }
 swiper.square-dot .wx-swiper-dot.wx-swiper-dot-active,
@@ -2532,8 +2459,7 @@ swiper.round-dot .uni-swiper-dot.uni-swiper-dot-active::after {
 	bottom: 0;
 	margin: auto;
 	background-color: #ffffff;
-	-webkit-border-radius: 20rpx;
-	        border-radius: 20rpx;
+	border-radius: 20rpx;
 }
 swiper.round-dot .wx-swiper-dot.wx-swiper-dot-active,
 swiper.round-dot .a-swiper-dot.a-swiper-dot-active,
@@ -2560,8 +2486,7 @@ swiper.round-dot .uni-swiper-dot.uni-swiper-dot-active {
 .card-swiper swiper-item {
 	width: 610rpx !important;
 	left: 70rpx;
-	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
+	box-sizing: border-box;
 	padding: 0rpx;
 	overflow: initial;
 }
@@ -2569,8 +2494,7 @@ swiper.round-dot .uni-swiper-dot.uni-swiper-dot-active {
 	width: 100%;
 	display: block;
 	height: 100%;
-	-webkit-border-radius: 10rpx;
-	        border-radius: 10rpx;
+	border-radius: 10rpx;
 	-webkit-transform: scale(0.9);
 	        transform: scale(0.9);
 	-webkit-transition: all 0.2s ease-in 0s;
@@ -2607,8 +2531,7 @@ swiper.round-dot .uni-swiper-dot.uni-swiper-dot-active {
 .tower-swiper .tower-item .swiper-item {
 	width: 100%;
 	height: 100%;
-	-webkit-border-radius: 6rpx;
-	        border-radius: 6rpx;
+	border-radius: 6rpx;
 	overflow: hidden;
 }
 /* ==================
@@ -2691,8 +2614,7 @@ scroll-view.cu-steps .cu-item {
 .cu-steps .cu-item .num {
 	width: 40rpx;
 	height: 40rpx;
-	-webkit-border-radius: 50%;
-	        border-radius: 50%;
+	border-radius: 50%;
 	line-height: 40rpx;
 	margin: 20rpx auto;
 	font-size: 24rpx;
@@ -2873,8 +2795,7 @@ scroll-view.cu-steps .cu-item {
 	position: absolute;
 	right: 0;
 	top: 0;
-	-webkit-border-bottom-left-radius: 6rpx;
-	        border-bottom-left-radius: 6rpx;
+	border-bottom-left-radius: 6rpx;
 	padding: 6rpx 12rpx;
 	height: auto;
 	background-color: rgba(0, 0, 0, 0.5);
@@ -2905,8 +2826,7 @@ scroll-view.cu-steps .cu-item {
 .grid.grid-square>view {
 	margin-right: 20rpx;
 	margin-bottom: 20rpx;
-	-webkit-border-radius: 6rpx;
-	        border-radius: 6rpx;
+	border-radius: 6rpx;
 	position: relative;
 	overflow: hidden;
 }
@@ -3341,13 +3261,11 @@ scroll-view.cu-steps .cu-item {
 	color: #ffffff;
 }
 .bg-shadeTop {
-	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 1)), to(rgba(0, 0, 0, 0.01)));
 	background-image: -webkit-linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.01));
 	background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.01));
 	color: #ffffff;
 }
 .bg-shadeBottom {
-	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.01)), to(rgba(0, 0, 0, 1)));
 	background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 1));
 	background-image: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 1));
 	color: #ffffff;
@@ -3431,64 +3349,49 @@ scroll-view.cu-steps .cu-item {
 	color: #ffffff;
 }
 .shadow[class*="-red"] {
-	-webkit-box-shadow: 6rpx 6rpx 8rpx rgba(204, 69, 59, 0.2);
-	        box-shadow: 6rpx 6rpx 8rpx rgba(204, 69, 59, 0.2);
+	box-shadow: 6rpx 6rpx 8rpx rgba(204, 69, 59, 0.2);
 }
 .shadow[class*="-orange"] {
-	-webkit-box-shadow: 6rpx 6rpx 8rpx rgba(217, 109, 26, 0.2);
-	        box-shadow: 6rpx 6rpx 8rpx rgba(217, 109, 26, 0.2);
+	box-shadow: 6rpx 6rpx 8rpx rgba(217, 109, 26, 0.2);
 }
 .shadow[class*="-yellow"] {
-	-webkit-box-shadow: 6rpx 6rpx 8rpx rgba(224, 170, 7, 0.2);
-	        box-shadow: 6rpx 6rpx 8rpx rgba(224, 170, 7, 0.2);
+	box-shadow: 6rpx 6rpx 8rpx rgba(224, 170, 7, 0.2);
 }
 .shadow[class*="-olive"] {
-	-webkit-box-shadow: 6rpx 6rpx 8rpx rgba(124, 173, 55, 0.2);
-	        box-shadow: 6rpx 6rpx 8rpx rgba(124, 173, 55, 0.2);
+	box-shadow: 6rpx 6rpx 8rpx rgba(124, 173, 55, 0.2);
 }
 .shadow[class*="-green"] {
-	-webkit-box-shadow: 6rpx 6rpx 8rpx rgba(48, 156, 63, 0.2);
-	        box-shadow: 6rpx 6rpx 8rpx rgba(48, 156, 63, 0.2);
+	box-shadow: 6rpx 6rpx 8rpx rgba(48, 156, 63, 0.2);
 }
 .shadow[class*="-cyan"] {
-	-webkit-box-shadow: 6rpx 6rpx 8rpx rgba(28, 187, 180, 0.2);
-	        box-shadow: 6rpx 6rpx 8rpx rgba(28, 187, 180, 0.2);
+	box-shadow: 6rpx 6rpx 8rpx rgba(28, 187, 180, 0.2);
 }
 .shadow[class*="-blue"] {
-	-webkit-box-shadow: 6rpx 6rpx 8rpx rgba(0, 102, 204, 0.2);
-	        box-shadow: 6rpx 6rpx 8rpx rgba(0, 102, 204, 0.2);
+	box-shadow: 6rpx 6rpx 8rpx rgba(0, 102, 204, 0.2);
 }
 .shadow[class*="-purple"] {
-	-webkit-box-shadow: 6rpx 6rpx 8rpx rgba(88, 48, 156, 0.2);
-	        box-shadow: 6rpx 6rpx 8rpx rgba(88, 48, 156, 0.2);
+	box-shadow: 6rpx 6rpx 8rpx rgba(88, 48, 156, 0.2);
 }
 .shadow[class*="-mauve"] {
-	-webkit-box-shadow: 6rpx 6rpx 8rpx rgba(133, 33, 150, 0.2);
-	        box-shadow: 6rpx 6rpx 8rpx rgba(133, 33, 150, 0.2);
+	box-shadow: 6rpx 6rpx 8rpx rgba(133, 33, 150, 0.2);
 }
 .shadow[class*="-pink"] {
-	-webkit-box-shadow: 6rpx 6rpx 8rpx rgba(199, 50, 134, 0.2);
-	        box-shadow: 6rpx 6rpx 8rpx rgba(199, 50, 134, 0.2);
+	box-shadow: 6rpx 6rpx 8rpx rgba(199, 50, 134, 0.2);
 }
 .shadow[class*="-brown"] {
-	-webkit-box-shadow: 6rpx 6rpx 8rpx rgba(140, 88, 53, 0.2);
-	        box-shadow: 6rpx 6rpx 8rpx rgba(140, 88, 53, 0.2);
+	box-shadow: 6rpx 6rpx 8rpx rgba(140, 88, 53, 0.2);
 }
 .shadow[class*="-grey"] {
-	-webkit-box-shadow: 6rpx 6rpx 8rpx rgba(114, 130, 138, 0.2);
-	        box-shadow: 6rpx 6rpx 8rpx rgba(114, 130, 138, 0.2);
+	box-shadow: 6rpx 6rpx 8rpx rgba(114, 130, 138, 0.2);
 }
 .shadow[class*="-gray"] {
-	-webkit-box-shadow: 6rpx 6rpx 8rpx rgba(114, 130, 138, 0.2);
-	        box-shadow: 6rpx 6rpx 8rpx rgba(114, 130, 138, 0.2);
+	box-shadow: 6rpx 6rpx 8rpx rgba(114, 130, 138, 0.2);
 }
 .shadow[class*="-black"] {
-	-webkit-box-shadow: 6rpx 6rpx 8rpx rgba(26, 26, 26, 0.2);
-	        box-shadow: 6rpx 6rpx 8rpx rgba(26, 26, 26, 0.2);
+	box-shadow: 6rpx 6rpx 8rpx rgba(26, 26, 26, 0.2);
 }
 .shadow[class*="-white"] {
-	-webkit-box-shadow: 6rpx 6rpx 8rpx rgba(26, 26, 26, 0.2);
-	        box-shadow: 6rpx 6rpx 8rpx rgba(26, 26, 26, 0.2);
+	box-shadow: 6rpx 6rpx 8rpx rgba(26, 26, 26, 0.2);
 }
 .text-shadow[class*="-red"] {
 	text-shadow: 6rpx 6rpx 8rpx rgba(204, 69, 59, 0.2);
@@ -3543,8 +3446,7 @@ scroll-view.cu-steps .cu-item {
 }
 .bg-mask::after {
 	content: "";
-	-webkit-border-radius: inherit;
-	        border-radius: inherit;
+	border-radius: inherit;
 	width: 100%;
 	height: 100%;
 	display: block;
@@ -5813,24 +5715,20 @@ audio,
 camera,
 image,
 video {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 /* 骨架屏替代方案 */
 .rf-skeleton {
   background: #fff;
   padding: 20rpx 0;
-  -webkit-border-radius: 8rpx;
-          border-radius: 8rpx;
-  -webkit-box-shadow: 0rpx 5rpx 25rpx rgba(0, 0, 0, 0.05);
-          box-shadow: 0rpx 5rpx 25rpx rgba(0, 0, 0, 0.05);
+  border-radius: 8rpx;
+  box-shadow: 0rpx 5rpx 25rpx rgba(0, 0, 0, 0.05);
 }
 /* 图片载入替代方案 */
 .image-wrapper {
   font-size: 0;
   background: #f3f3f3;
-  -webkit-border-radius: 4px;
-          border-radius: 4px;
+  border-radius: 4px;
 }
 .image-wrapper image {
   width: 100%;
@@ -5899,8 +5797,7 @@ form {
 }
 .rf-button {
   color: #fff;
-  -webkit-border-radius: 30rpx;
-          border-radius: 30rpx;
+  border-radius: 30rpx;
   font-size: 32rpx;
 }
 uni-button {
@@ -5929,8 +5826,7 @@ uni-button {
   display: inline-block;
   padding: 3px 6px;
   color: #333;
-  -webkit-border-radius: 100px;
-          border-radius: 100px;
+  border-radius: 100px;
 }
 .uni-badge.uni-badge-inverted {
   padding: 0 5px 0 0;
@@ -6112,8 +6008,7 @@ uni-button {
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   width: 100%;
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -6171,8 +6066,7 @@ uni-button {
   background: #eee;
 }
 .uni-list.uni-collapse {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   height: 0;
   overflow: hidden;
 }
@@ -6188,8 +6082,7 @@ uni-button {
 /* 图文列表 */
 .uni-media-list {
   padding: 22rpx 30rpx;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
@@ -6274,16 +6167,14 @@ uni-button {
           flex-direction: row;
   position: relative;
   padding-bottom: 20rpx;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   overflow: hidden;
 }
 .uni-timeline-item .uni-timeline-item-keynode {
   width: 160rpx;
   -webkit-flex-shrink: 0;
           flex-shrink: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding-right: 20rpx;
   text-align: right;
   line-height: 65rpx;
@@ -6295,8 +6186,7 @@ uni-button {
   width: 30rpx;
   height: 30rpx;
   top: 15rpx;
-  -webkit-border-radius: 50%;
-          border-radius: 50%;
+  border-radius: 50%;
   background-color: #bbb;
 }
 .uni-timeline-item-divider::before,
@@ -6410,8 +6300,7 @@ uni-button {
   -webkit-justify-content: center;
           justify-content: center;
   width: 280rpx;
-  -webkit-border-radius: 4rpx;
-          border-radius: 4rpx;
+  border-radius: 4rpx;
   margin: 0;
   height: 100%;
   font-size: 32rpx;
@@ -6420,38 +6309,32 @@ uni-button {
   width: 630rpx;
   height: 76rpx;
   line-height: 76rpx;
-  -webkit-border-radius: 50px;
-          border-radius: 50px;
+  border-radius: 50px;
   margin-top: 70rpx;
   font-size: 32rpx;
 }
 .confirm-btn:after {
-  -webkit-border-radius: 100px;
-          border-radius: 100px;
+  border-radius: 100px;
 }
 .rf-card {
   background-color: #fff;
   margin: 0 30rpx;
   padding: 20rpx 0;
-  -webkit-border-radius: 12rpx;
-          border-radius: 12rpx;
-  -webkit-box-shadow: 0 30rpx 20rpx rgba(0, 0, 0, 0.05);
-          box-shadow: 0 30rpx 20rpx rgba(0, 0, 0, 0.05);
+  border-radius: 12rpx;
+  box-shadow: 0 30rpx 20rpx rgba(0, 0, 0, 0.05);
 }
 .rf-btn {
   width: 90%;
   height: 76rpx;
   line-height: 76rpx;
-  -webkit-border-radius: 50px;
-          border-radius: 50px;
+  border-radius: 50px;
   margin-top: 70rpx;
   background: #fa436a;
   color: #fff;
   font-size: 32rpx;
 }
 .rf-btn:after {
-  -webkit-border-radius: 100px;
-          border-radius: 100px;
+  border-radius: 100px;
 }
 .rf-space-between {
   display: -webkit-box;
@@ -6465,8 +6348,7 @@ uni-button {
           justify-content: space-between;
 }
 .rf-box-shadow {
-  -webkit-box-shadow: 0rpx 5rpx 25rpx rgba(0, 0, 0, 0.05);
-          box-shadow: 0rpx 5rpx 25rpx rgba(0, 0, 0, 0.05);
+  box-shadow: 0rpx 5rpx 25rpx rgba(0, 0, 0, 0.05);
 }
 .in1line {
   display: -webkit-box !important;
@@ -6510,8 +6392,7 @@ uni-button {
   background: #fff;
 }
 .rf-product-list .product-item {
-  -webkit-box-shadow: 2px 2px 10px rgba(66, 135, 193, 0.1);
-          box-shadow: 2px 2px 10px rgba(66, 135, 193, 0.1);
+  box-shadow: 2px 2px 10px rgba(66, 135, 193, 0.1);
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
@@ -6528,8 +6409,7 @@ uni-button {
 .rf-product-list .image-wrapper {
   width: 100%;
   height: 320rpx;
-  -webkit-border-radius: 6rpx;
-          border-radius: 6rpx;
+  border-radius: 6rpx;
   overflow: hidden;
   position: relative;
 }
@@ -6542,8 +6422,7 @@ uni-button {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.4);
   position: absolute;
-  -webkit-border-bottom-left-radius: 6rpx;
-          border-bottom-left-radius: 6rpx;
+  border-bottom-left-radius: 6rpx;
   bottom: 0;
   padding: 0 8rpx;
   right: 0;
@@ -6551,8 +6430,7 @@ uni-button {
   font-size: 24rpx;
 }
 .rf-product-list .image-wrapper .triangle-wrapper {
-  -webkit-border-top-left-radius: 6rpx;
-          border-top-left-radius: 6rpx;
+  border-top-left-radius: 6rpx;
   position: absolute;
   overflow: hidden;
   top: 0;
@@ -6619,8 +6497,7 @@ uni-button {
   height: 40px;
   padding: 0 5px;
   background: #fff;
-  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.06);
-          box-shadow: 0 1px 5px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.06);
   position: relative;
   z-index: 10;
 }
@@ -6655,10 +6532,8 @@ uni-button {
 /* 标题简介 */
 .introduce-section {
   background-color: #fff;
-  -webkit-border-bottom-left-radius: 32rpx;
-          border-bottom-left-radius: 32rpx;
-  -webkit-border-bottom-right-radius: 32rpx;
-          border-bottom-right-radius: 32rpx;
+  border-bottom-left-radius: 32rpx;
+  border-bottom-right-radius: 32rpx;
   margin-bottom: 20rpx;
 }
 .introduce-section .product-tag {
@@ -6756,8 +6631,7 @@ uni-button {
   background: #fa436a;
   font-size: 24rpx;
   color: #fff;
-  -webkit-border-radius: 6rpx;
-          border-radius: 6rpx;
+  border-radius: 6rpx;
   line-height: 1;
   -webkit-transform: translateY(-4rpx);
           transform: translateY(-4rpx);
@@ -6810,8 +6684,7 @@ uni-button {
   line-height: 36rpx;
   font-size: 24rpx;
   background: transparent;
-  -webkit-border-radius: none;
-          border-radius: none;
+  border-radius: none;
   padding: 0;
   margin: 0;
 }
@@ -6828,7 +6701,6 @@ uni-button {
   -webkit-align-items: center;
           align-items: center;
   color: #606266;
-  background: -webkit-gradient(linear, right top, left top, from(#fdf5f6), to(#fbebf6));
   background: -webkit-linear-gradient(right, #fdf5f6, #fbebf6);
   background: linear-gradient(to left, #fdf5f6, #fbebf6);
   padding: 12rpx 30rpx;
@@ -6844,8 +6716,7 @@ uni-button {
   height: 30rpx;
   line-height: 1;
   border: 1px solid #fa436a;
-  -webkit-border-radius: 4rpx;
-          border-radius: 4rpx;
+  border-radius: 4rpx;
   position: relative;
   overflow: hidden;
   font-size: 22rpx;
@@ -6855,8 +6726,7 @@ uni-button {
   content: '';
   width: 50rpx;
   height: 50rpx;
-  -webkit-border-radius: 50%;
-          border-radius: 50%;
+  border-radius: 50%;
   left: -20rpx;
   top: -12rpx;
   position: absolute;
@@ -6888,8 +6758,7 @@ uni-button {
   font-size: 24rpx;
   color: #fa436a;
   background: transparent;
-  -webkit-border-radius: none;
-          border-radius: none;
+  border-radius: none;
   padding: 0;
   margin: 0;
 }
@@ -6947,8 +6816,7 @@ uni-button {
   max-height: 70vh;
   bottom: 90rpx;
   width: 100%;
-  -webkit-border-radius: 10rpx 10rpx 0 0;
-          border-radius: 10rpx 10rpx 0 0;
+  border-radius: 10rpx 10rpx 0 0;
   background-color: #fff;
 }
 .popup .layer .content {
@@ -6958,8 +6826,7 @@ uni-button {
 .popup .layer .btn {
   height: 66rpx;
   line-height: 66rpx;
-  -webkit-border-radius: 100rpx;
-          border-radius: 100rpx;
+  border-radius: 100rpx;
   font-size: 30rpx;
   margin: 30rpx 30rpx 20rpx;
 }
@@ -7098,8 +6965,7 @@ uni-button {
   height: 200rpx;
   -webkit-flex-shrink: 0;
           flex-shrink: 0;
-  -webkit-border-radius: 8rpx;
-          border-radius: 8rpx;
+  border-radius: 8rpx;
 }
 .attr-content .a-t .right {
   display: -webkit-box;
@@ -7163,8 +7029,7 @@ uni-button {
   border: 1rpx solid rgba(0, 0, 0, 0.05);
   margin-right: 20rpx;
   margin-bottom: 20rpx;
-  -webkit-border-radius: 100rpx;
-          border-radius: 100rpx;
+  border-radius: 100rpx;
   min-width: 60rpx;
   height: 60rpx;
   padding: 0 20rpx;
@@ -7198,8 +7063,7 @@ uni-button {
   -webkit-align-items: center;
           align-items: center;
   width: 100vw;
-  -webkit-box-shadow: 0 0 10rpx 0 rgba(0, 0, 0, 0.1);
-          box-shadow: 0 0 10rpx 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10rpx 0 rgba(0, 0, 0, 0.1);
   padding-bottom: env(safe-area-inset-bottom);
 }
 .page-bottom .page-bottom-bth-wrapper {
@@ -7250,8 +7114,7 @@ uni-button {
   display: -webkit-flex;
   display: flex;
   height: 76rpx;
-  -webkit-border-radius: 100px;
-          border-radius: 100px;
+  border-radius: 100px;
   overflow: hidden;
   margin: 0 20rpx;
   position: relative;
@@ -7314,8 +7177,7 @@ uni-button {
   height: 76rpx;
   line-height: 76rpx;
   width: 320rpx;
-  -webkit-border-radius: 100px;
-          border-radius: 100px;
+  border-radius: 100px;
   margin: 0 20rpx 0 80rpx;
   font-size: 26rpx;
 }
@@ -7412,8 +7274,7 @@ uni-button {
           flex-shrink: 0;
   width: 80rpx;
   height: 80rpx;
-  -webkit-border-radius: 100px;
-          border-radius: 100px;
+  border-radius: 100px;
 }
 .eva-section .eva-box .right {
   -webkit-box-flex: 1;
@@ -7479,8 +7340,7 @@ uni-button {
   text-align: center;
   background-color: rgba(0, 0, 0, 0.4);
   position: absolute;
-  -webkit-border-bottom-left-radius: 6rpx;
-          border-bottom-left-radius: 6rpx;
+  border-bottom-left-radius: 6rpx;
   bottom: 0;
   padding: 0 8rpx;
   right: 0;
@@ -7503,10 +7363,8 @@ uni-button {
   -webkit-box-align: center;
   -webkit-align-items: center;
           align-items: center;
-  -webkit-border-radius: 12rpx;
-          border-radius: 12rpx;
-  -webkit-box-shadow: 0rpx 5rpx 25rpx rgba(0, 0, 0, 0.05);
-          box-shadow: 0rpx 5rpx 25rpx rgba(0, 0, 0, 0.05);
+  border-radius: 12rpx;
+  box-shadow: 0rpx 5rpx 25rpx rgba(0, 0, 0, 0.05);
   padding: 20rpx 30rpx;
   margin: 0 20rpx 20rpx;
 }
@@ -7552,8 +7410,7 @@ uni-button {
 .add-btn-wrapper .add-btn {
   font-size: 28rpx;
   margin: 0 30rpx;
-  -webkit-border-radius: 10rpx;
-          border-radius: 10rpx;
+  border-radius: 10rpx;
 }
 .rf-row-wrapper .row {
   display: -webkit-box;
@@ -7611,8 +7468,7 @@ uni-button {
   height: 80rpx;
   margin: 60rpx auto;
   font-size: 32rpx;
-  -webkit-border-radius: 10rpx;
-          border-radius: 10rpx;
+  border-radius: 10rpx;
 }
 .rf-drawer .rf-drawer-title {
   display: -webkit-box;
@@ -7677,15 +7533,13 @@ uni-button {
   width: 360rpx;
   height: 76rpx;
   line-height: 76rpx;
-  -webkit-border-radius: 50px;
-          border-radius: 50px;
+  border-radius: 50px;
   margin-top: 70rpx;
   font-size: 32rpx;
   border: none;
 }
 .rf-drawer .close .btn:after {
-  -webkit-border-radius: 100px;
-          border-radius: 100px;
+  border-radius: 100px;
 }
 .input-item-sms-code .input-wrapper {
   display: -webkit-box;
@@ -7712,8 +7566,7 @@ uni-button {
   -webkit-align-items: center;
           align-items: center;
   color: #606266;
-  -webkit-border-radius: 12rpx;
-          border-radius: 12rpx;
+  border-radius: 12rpx;
 }
 .input-item-sms-code .sms-code-resend {
   color: #909399;
@@ -7721,8 +7574,7 @@ uni-button {
 .sub-list .row {
   width: 92%;
   margin: 20rpx auto 10rpx;
-  -webkit-box-shadow: 0rpx 0 10rpx rgba(0, 0, 0, 0.1);
-          box-shadow: 0rpx 0 10rpx rgba(0, 0, 0, 0.1);
+  box-shadow: 0rpx 0 10rpx rgba(0, 0, 0, 0.1);
   -webkit-box-align: center;
   -webkit-align-items: center;
           align-items: center;
@@ -7730,8 +7582,7 @@ uni-button {
   border: 0;
 }
 .sub-list .row .carrier {
-  -webkit-border-radius: 12rpx;
-          border-radius: 12rpx;
+  border-radius: 12rpx;
   background-color: #fff;
   z-index: 3;
   padding: 20rpx 30rpx;
@@ -7756,8 +7607,7 @@ uni-button {
   font-size: 22rpx;
   text-align: center;
   line-height: 32rpx;
-  -webkit-border-radius: 4rpx;
-          border-radius: 4rpx;
+  border-radius: 4rpx;
   margin-right: 12rpx;
 }
 .sub-list .row .carrier .title .cell-icon.hb {
@@ -7887,8 +7737,7 @@ uni-button {
   display: block;
   width: 50rpx;
   height: 50rpx;
-  -webkit-border-radius: 100px;
-          border-radius: 100px;
+  border-radius: 100px;
 }
 .rf-goods-section .name {
   font-size: 30rpx;
@@ -7906,8 +7755,7 @@ uni-button {
   display: block;
   width: 220rpx;
   height: 170rpx;
-  -webkit-border-radius: 4rpx;
-          border-radius: 4rpx;
+  border-radius: 4rpx;
 }
 .rf-goods-section .g-item .right {
   -webkit-box-flex: 1;
@@ -8022,8 +7870,7 @@ uni-button {
   display: flex;
   margin: 10rpx 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.02);
-          box-shadow: 0 1px 5px rgba(0, 0, 0, 0.02);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.02);
 }
 .rf-order-item .goods-box-single .goods-img {
   display: block;
@@ -8121,8 +7968,7 @@ uni-button {
   line-height: 14px;
   height: 16px;
   width: 16px;
-  -webkit-border-radius: 50%;
-          border-radius: 50%;
+  border-radius: 50%;
   position: absolute;
   top: -6px;
   right: -4px;
@@ -8224,10 +8070,8 @@ uni-button {
   width: calc(92%);
   height: calc(22vw + 40rpx);
   margin: 20rpx auto;
-  -webkit-border-radius: 15rpx;
-          border-radius: 15rpx;
-  -webkit-box-shadow: 0rpx 5rpx 20rpx rgba(0, 0, 0, 0.1);
-          box-shadow: 0rpx 5rpx 20rpx rgba(0, 0, 0, 0.1);
+  border-radius: 15rpx;
+  box-shadow: 0rpx 5rpx 20rpx rgba(0, 0, 0, 0.1);
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
@@ -8339,8 +8183,7 @@ uni-button {
 .rf-cart-row .carrier .goods-info .img {
   width: 22vw;
   height: 22vw;
-  -webkit-border-radius: 10rpx;
-          border-radius: 10rpx;
+  border-radius: 10rpx;
   overflow: hidden;
   -webkit-flex-shrink: 0;
           flex-shrink: 0;
@@ -8424,8 +8267,7 @@ uni-button {
   width: 45rpx;
   height: 45rpx;
   background-color: #f3f3f3;
-  -webkit-border-radius: 5rpx;
-          border-radius: 5rpx;
+  border-radius: 5rpx;
 }
 .rf-cart-row .carrier .goods-info .info .price-number .number .sub .icon,
 .rf-cart-row .carrier .goods-info .info .price-number .number .add .icon {
@@ -8458,16 +8300,14 @@ uni-button {
   color: #fff;
   padding: 5rpx 20rpx;
   font-size: 24rpx;
-  -webkit-border-radius: 6rpx;
-          border-radius: 6rpx;
+  border-radius: 6rpx;
 }
 .rf-cart-row .carrier .goods-info .state-wrapper .spec {
   font-size: 24rpx;
   background-color: #f3f3f3;
   color: #a7a7a7;
   padding: 5rpx 15rpx;
-  -webkit-border-radius: 20rpx;
-          border-radius: 20rpx;
+  border-radius: 20rpx;
   margin-bottom: 20vw;
 }
 .footer-protocol {
@@ -8505,8 +8345,7 @@ uni-button {
           flex-direction: row;
   -webkit-flex-wrap: wrap;
           flex-wrap: wrap;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 .rf-product-list .rf-product-list-container {
   -webkit-box-flex: 1;
@@ -8520,11 +8359,9 @@ uni-button {
 .rf-product-list .rf-product-item {
   width: 100%;
   margin-bottom: 10rpx;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   background: #fff;
-  -webkit-border-radius: 12rpx;
-          border-radius: 12rpx;
+  border-radius: 12rpx;
   overflow: hidden;
   -webkit-transition: all 0.15s ease-in-out;
   transition: all 0.15s ease-in-out;
@@ -8539,21 +8376,18 @@ uni-button {
   margin-bottom: 10rpx !important;
 }
 .rf-product-list .rf-product-image-wrapper {
-  -webkit-border-radius: 6rpx;
-          border-radius: 6rpx;
+  border-radius: 6rpx;
   overflow: hidden;
   position: relative;
 }
 .rf-product-list .rf-product-image-wrapper .rf-product-img {
   width: calc(50vw - 20rpx);
   height: calc(50vw - 20rpx) !important;
-  -webkit-border-radius: 12rpx;
-          border-radius: 12rpx;
+  border-radius: 12rpx;
   display: block;
 }
 .rf-product-list .rf-product-image-wrapper .rf-product-list-img {
-  -webkit-border-radius: 12rpx;
-          border-radius: 12rpx;
+  border-radius: 12rpx;
   width: 400rpx;
   height: 240rpx !important;
   display: block;
@@ -8564,8 +8398,7 @@ uni-button {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.4);
   position: absolute;
-  -webkit-border-bottom-left-radius: 6rpx;
-          border-bottom-left-radius: 6rpx;
+  border-bottom-left-radius: 6rpx;
   bottom: 0;
   padding: 0 8rpx;
   right: 0;
@@ -8573,8 +8406,7 @@ uni-button {
   font-size: 24rpx;
 }
 .rf-product-list .rf-product-image-wrapper .triangle-wrapper {
-  -webkit-border-top-left-radius: 6rpx;
-          border-top-left-radius: 6rpx;
+  border-top-left-radius: 6rpx;
   position: absolute;
   overflow: hidden;
   top: 0;
@@ -8596,8 +8428,7 @@ uni-button {
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
           justify-content: space-between;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding: 20rpx;
 }
 .rf-product-list .rf-pro-content .rf-pro-tit {

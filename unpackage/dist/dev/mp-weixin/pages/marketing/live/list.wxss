@@ -14,8 +14,7 @@ page.data-v-83ad5f62 {
 .rf-live-list .left .image.data-v-83ad5f62 {
   width: 170rpx;
   height: 150rpx;
-  -webkit-border-radius: 12rpx;
-          border-radius: 12rpx;
+  border-radius: 12rpx;
 }
 .rf-live-list .mid.data-v-83ad5f62 {
   margin: 0 20rpx;

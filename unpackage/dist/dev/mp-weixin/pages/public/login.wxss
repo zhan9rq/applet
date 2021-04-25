@@ -52,8 +52,7 @@ page {
 .container .right-top-sign:before {
   -webkit-transform: rotate(50deg);
           transform: rotate(50deg);
-  -webkit-border-radius: 0 50px 0 0;
-          border-radius: 0 50px 0 0;
+  border-radius: 0 50px 0 0;
 }
 .container .right-top-sign:after {
   position: absolute;
@@ -61,8 +60,7 @@ page {
   top: 0;
   -webkit-transform: rotate(-50deg);
           transform: rotate(-50deg);
-  -webkit-border-radius: 50px 0 0 0;
-          border-radius: 50px 0 0 0;
+  border-radius: 50px 0 0 0;
   /* background: pink; */
 }
 .container .left-bottom-sign {
@@ -70,8 +68,7 @@ page {
   left: -270rpx;
   bottom: -320rpx;
   border: 100rpx solid #d0d1fd;
-  -webkit-border-radius: 50%;
-          border-radius: 50%;
+  border-radius: 50%;
   padding: 180rpx;
 }
 .container .welcome {
@@ -102,8 +99,7 @@ page {
   padding: 0 30rpx;
   background: #f8f6fc;
   height: 120rpx;
-  -webkit-border-radius: 4px;
-          border-radius: 4px;
+  border-radius: 4px;
   margin-bottom: 50rpx;
 }
 .container .input-item:last-child {

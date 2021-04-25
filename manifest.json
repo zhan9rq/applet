@@ -1,6 +1,6 @@
 {
     "name" : "cc",
-    "appid" : "", // 自行更换uniapp appid 可登录查看uniapp提供的用户统计 https://tongji.dcloud.net.cn/
+    "appid" : "__UNI__ED2B260", // 自行更换uniapp appid 可登录查看uniapp提供的用户统计 https://tongji.dcloud.net.cn/
     "description" : "RF商城",
     "versionName" : "1.2.9",
     "versionCode" : 1,

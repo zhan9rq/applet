@@ -15,8 +15,7 @@
 	position: absolute;
 	top: 0;
 	background-color: #67cf22;
-	-webkit-border-radius: 100%;
-	        border-radius: 100%;
+	border-radius: 100%;
 
 	-webkit-animation: bounce-data-v-2d096fbd 2s infinite ease-in-out;
 	animation: bounce-data-v-2d096fbd 2s infinite ease-in-out;

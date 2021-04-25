@@ -55,8 +55,7 @@ page.data-v-33a0af17 {
   border: 1rpx solid #e0e0e0;
   border-width: 1rpx 1rpx 0 0;
   padding: 16rpx 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   text-align: center;
 }
 .rf-account-level .genaral-area .item-2.data-v-33a0af17:first-child {
@@ -67,8 +66,7 @@ page.data-v-33a0af17 {
 }
 .rf-account-level .genaral-area .thead .item-2.data-v-33a0af17 {
   font-weight: bold;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 .rf-account-level .genaral-area .table.data-v-33a0af17:last-child {
   border-bottom: 1rpx solid #e0e0e0;
@@ -83,16 +81,14 @@ page.data-v-33a0af17 {
   -webkit-box-align: center;
   -webkit-align-items: center;
           align-items: center;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 .rf-account-level .advance-area .item-3.data-v-33a0af17,
 .rf-account-level .advance-area .item-4.data-v-33a0af17 {
   font-size: 26rpx;
   border: 1rpx solid #e0e0e0;
   border-width: 1rpx 1rpx 0 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   text-align: center;
 }
 .rf-account-level .advance-area .item-3.data-v-33a0af17:first-child,
@@ -107,8 +103,7 @@ page.data-v-33a0af17 {
 .rf-account-level .advance-area .thead .item-4.data-v-33a0af17 {
   font-weight: bold;
   padding: 16rpx 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 .rf-account-level .advance-area .table.data-v-33a0af17:last-child {
   border-bottom: 1rpx solid #e0e0e0;
@@ -124,8 +119,7 @@ page.data-v-33a0af17 {
   -webkit-box-align: center;
   -webkit-align-items: center;
           align-items: center;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 .rf-account-level .advance-area .table-flex.data-v-33a0af17 {
   -webkit-box-flex: 1;
@@ -135,8 +129,7 @@ page.data-v-33a0af17 {
 .rf-account-level .advance-area .table-flex .item.data-v-33a0af17 {
   border-bottom: 1rpx solid #e0e0e0;
   padding: 10rpx 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 .rf-account-level .advance-area .table-flex .item.data-v-33a0af17:last-child {
   border-width: 0;

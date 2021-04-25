@@ -19,8 +19,7 @@ page {
 .login-type .logo image {
   width: 180rpx;
   height: 180rpx;
-  -webkit-border-radius: 28rpx;
-          border-radius: 28rpx;
+  border-radius: 28rpx;
 }
 .login-type .confirm-btn {
   width: 84%;

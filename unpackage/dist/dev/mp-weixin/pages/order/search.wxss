@@ -43,8 +43,7 @@
 .rf-order-search .rf-header-box .input-box {
   width: 100%;
   font-size: 24rpx;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   color: #999;
   display: -webkit-box;
   display: -webkit-flex;
@@ -55,8 +54,7 @@
   overflow: hidden;
   height: 60rpx;
   background-color: #f8f8f8;
-  -webkit-border-radius: 30rpx;
-          border-radius: 30rpx;
+  border-radius: 30rpx;
   position: relative;
   margin: 0 20rpx 0 10rpx;
 }

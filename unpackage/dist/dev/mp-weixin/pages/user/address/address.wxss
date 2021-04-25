@@ -23,8 +23,7 @@ page {
   font-size: 24rpx;
   margin-right: 4rpx;
   border: 1px solid;
-  -webkit-border-radius: 4rpx;
-          border-radius: 4rpx;
+  border-radius: 4rpx;
   padding: 0 4rpx;
 }
 .address-list .address-box .address {

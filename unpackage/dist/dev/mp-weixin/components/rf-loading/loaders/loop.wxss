@@ -9,9 +9,7 @@
 	width: 12px;
 	height: 12px;
 
-	-webkit-border-radius: 100%;
-
-	        border-radius: 100%;
+	border-radius: 100%;
 	position: absolute;
 	-webkit-animation: bouncedelay-data-v-59ee2f94 1.2s infinite ease-in-out;
 	animation: bouncedelay-data-v-59ee2f94 1.2s infinite ease-in-out;

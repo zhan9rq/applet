@@ -80,8 +80,7 @@
   z-index: 99;
   bottom: 0;
   width: 100%;
-  -webkit-border-radius: 10rpx 10rpx 0 0;
-          border-radius: 10rpx 10rpx 0 0;
+  border-radius: 10rpx 10rpx 0 0;
   background-color: #fff;
 }
 .rf-product-detail .layer .rf-list {
@@ -164,8 +163,7 @@
   width: 80rpx;
   height: 80rpx;
   margin: 20rpx 0;
-  -webkit-border-radius: 50%;
-          border-radius: 50%;
+  border-radius: 50%;
 }
 .rf-product-detail .assemble .assemble-item .pictxt .picture .text {
   line-height: 120rpx;
@@ -206,8 +204,7 @@
   -webkit-box-align: center;
   -webkit-align-items: center;
           align-items: center;
-  -webkit-border-radius: 48rpx;
-          border-radius: 48rpx;
+  border-radius: 48rpx;
 }
 .rf-product-detail .c-list {
   font-size: 26rpx;
@@ -281,8 +278,7 @@
 .rf-product-detail .kefu-bg image {
   width: 60vw;
   height: 60vw;
-  -webkit-border-radius: 12rpx;
-          border-radius: 12rpx;
+  border-radius: 12rpx;
   z-index: 98;
 }
 

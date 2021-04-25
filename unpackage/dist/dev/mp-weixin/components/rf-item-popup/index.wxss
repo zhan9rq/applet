@@ -74,8 +74,7 @@
   z-index: 99;
   bottom: 0;
   width: 100%;
-  -webkit-border-radius: 10rpx 10rpx 0 0;
-          border-radius: 10rpx 10rpx 0 0;
+  border-radius: 10rpx 10rpx 0 0;
   background-color: #fff;
 }
 .rf-item-popup .popup.service {

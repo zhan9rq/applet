@@ -134,7 +134,9 @@ var render = function() {
         }
       })
     : null
-  var m5 = _vm.product.name ? parseInt(_vm.product.max_buy, 10) : null
+  var m5 = _vm.product.name
+    ? _vm.type === "buy_now" && parseInt(_vm.product.max_buy, 10) > 0
+    : null
   var f2 =
     _vm.product.name &&
     _vm.product.point_exchange_type !== "1" &&

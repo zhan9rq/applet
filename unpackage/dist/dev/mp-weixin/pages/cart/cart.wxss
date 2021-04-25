@@ -19,8 +19,7 @@ page {
 .checkbox-box .checkbox {
   width: 35rpx;
   height: 35rpx;
-  -webkit-border-radius: 100%;
-          border-radius: 100%;
+  border-radius: 100%;
   border: solid 2rpx;
   display: -webkit-box;
   display: -webkit-flex;
@@ -35,8 +34,7 @@ page {
 .checkbox-box .checkbox .on {
   width: 25rpx;
   height: 25rpx;
-  -webkit-border-radius: 100%;
-          border-radius: 100%;
+  border-radius: 100%;
 }
 .checkbox-box .checkbox-disabled {
   border: solid 2rpx #C0C4CC;
@@ -156,8 +154,7 @@ page {
   border: solid 1rpx;
   padding: 0 24rpx;
   height: 42rpx;
-  -webkit-border-radius: 24rpx;
-          border-radius: 24rpx;
+  border-radius: 24rpx;
   font-size: 24rpx;
   display: -webkit-box;
   display: -webkit-flex;
@@ -207,8 +204,7 @@ page {
   -webkit-box-align: center;
   -webkit-align-items: center;
           align-items: center;
-  -webkit-border-radius: 30rpx;
-          border-radius: 30rpx;
+  border-radius: 30rpx;
 }
 .popup .layer {
   bottom: 0;

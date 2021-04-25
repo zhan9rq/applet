@@ -68,8 +68,7 @@
 .rf-search-bar .header .addr .logo {
   width: 45rpx;
   height: 45rpx;
-  -webkit-border-radius: 8rpx;
-          border-radius: 8rpx;
+  border-radius: 8rpx;
   margin-left: 10rpx;
 }
 .rf-search-bar .header .input-box {
@@ -79,8 +78,7 @@
   height: 60rpx;
   line-height: 60rpx;
   background-color: #fff;
-  -webkit-border-radius: 30rpx;
-          border-radius: 30rpx;
+  border-radius: 30rpx;
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;

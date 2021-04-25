@@ -19,7 +19,6 @@ page .about .shop-info image {
   margin-top: 100rpx;
   width: 240rpx;
   height: 240rpx;
-  -webkit-border-radius: 50%;
-          border-radius: 50%;
+  border-radius: 50%;
 }
 

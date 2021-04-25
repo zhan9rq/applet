@@ -62,8 +62,7 @@
   color: #868d91;
   font-size: 24rpx;
   margin-top: 34rpx;
-  -webkit-border-radius: 36rpx;
-          border-radius: 36rpx;
+  border-radius: 36rpx;
   border: 1rpx solid #d4d4d4;
 }
 .rf-no-data .content .btn.data-v-3903271b::after {

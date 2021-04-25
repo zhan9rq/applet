@@ -7,8 +7,7 @@
 /* 行为相关颜色 */
 /*顶部菜单*/
 .tui-menu-box.data-v-5a7e220c {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 .tui-menu-header.data-v-5a7e220c {
   font-size: 34rpx;
@@ -31,8 +30,7 @@
 .tui-menu-itembox.data-v-5a7e220c {
   color: #fff;
   padding: 40rpx 10rpx 0 10rpx;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
@@ -43,8 +41,7 @@
 .tui-menu-item.data-v-5a7e220c {
   width: 22%;
   height: 160rpx;
-  -webkit-border-radius: 24rpx;
-          border-radius: 24rpx;
+  border-radius: 24rpx;
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
